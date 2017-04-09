@@ -1,13 +1,29 @@
-[![devDependency Status](https://david-dm.org/nolimits4web/todo7/dev-status.svg)](https://david-dm.org/nolimits4web/todo7#info=devDependencies)
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=nolimits4web&url=https://github.com/nolimits4web/todo7/&title=ToDo7&language=JavaScript&tags=github&category=software)
+# Framework7 PhoneGap Application 
 
-# ToDo7
+> [Framework7](http://www.idangero.us/framework7) is a Mobile UI framework that can be used to build hybrid apps with PhoneGap. This template allows you to get started using Framework7 
+  quickly. 
+  
+  For a more extensive Framework7 sample, see the [one included in their Github project](https://github.com/nolimits4web/Framework7/tree/master/dist)
+  or the [demo apps on their website](http://www.idangero.us/framework7/apps/#.VpQCc5MrKjQ).
+    
+  Also, for an intro to Framework7, check out [this post on the PhoneGap blog](http://phonegap.com/blog/2015/11/30/framework7/).   
 
-ToDo7 is the incredibly simple "to do" webapp with simple tasks management. ToDo7 demonstrates that you can create fully functioning iOS app with minimal efforts in a few hours. Using PhoneGap you can convert it to native iOS app.
 
-### ToDo7 Features
+## Usage
+    
+### PhoneGap CLI
 
-* Local Storage. All your "to do" tasks are stored in Local Storage, so you don't need to add them each time you launch app.
-* Manifest Cache. Due to Manifest Cache you can still access app without internet connection.
-* Full Screen. ToDo7 is also a full screen app (on iOS).
+    $ phonegap create my-app --template phonegap-template-framework7
 
+### Cordova CLI
+
+    $ cordova create my-app --template phonegap-template-framework7
+    
+### Desktop
+
+In your browser, open the file:
+
+    /www/index.html
+
+
+  
